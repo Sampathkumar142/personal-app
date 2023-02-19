@@ -1,0 +1,32 @@
+*{
+  border: none;
+  text-decoration: none;
+}
+
+body { 
+  margin: 0;
+}
+
+.home-page { 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: skyblue;
+  height: 100vh;
+  width: 100vw;
+}
+
+.logo {
+  width: 200px;
+}
+
+.thumbnail {
+  object-fit: cover;
+  width: 100px;
+  height: 100px;
+}
+
+h2 a{
+  color: red;
+}
